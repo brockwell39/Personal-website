@@ -1,0 +1,26 @@
+body {
+  background-color: orange;
+  font-family: sans-serif;
+}
+
+.navbar {margin-bottom: 50px;}
+
+@media print {
+  .screenonly{
+    display: none ;
+  }
+}
+
+#picture {margin-bottom: 20px;}
+
+table {border: 1px solid black;width: 60%; text-align: center;margin-left: auto;
+            margin-right: auto;margin-bottom: 20px;}
+       th  {border: 1px solid black; height: 50px;}
+       td {border: 1px solid black;}
+
+       .list {
+         font-style: italic;
+       }
+       .list ul {
+         font-size: 20px;
+       }
